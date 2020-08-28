@@ -1,0 +1,12 @@
+Nettoyer et splitter le code
+Post logging : à la fin d'une réunion, je logge en donnant l'heure de début
+  - Ca lance une erreur si l'heure est inférieure à celle de l'entrée précédente
+  - Sinon, ça met une entrée avec l'heure de début, et un stop à l'heure courante
+  ==> mate -start "Ma tache" -at XX[h|:|-]XX
+Setup le path de la base mate (~/.mate.csv) avec -dbpath=
+Passage automatique sur un nouveau jour
+Alerte à 50% du ticket (cron)
+Scrap des infos depuis un numéro de ticket (récupère l'estimé)
+Intégration au shell de omzsh, comme git qui affiche le statut d'une branche
+Remplissage automatique de Redmine :)
+Deuxième fichier pour conserver tous les logs (au lieu de tout supprimer chaque jour)
